@@ -160,8 +160,8 @@ def main():
    boton6=pygame.image.load("hora2.png")
    boton7=pygame.image.load("msj.png")
    boton8=pygame.image.load("msj2.png")
-   boton9=pygame.image.load("dimm.png")
-   boton10=pygame.image.load("dimm2.png")
+   boton9=pygame.image.load("dim.png")
+   boton10=pygame.image.load("dim2.png")
    boton11=pygame.image.load("colores8.png")
    boton12=pygame.image.load("colores64.png")
    bot1=Boton(boton1,boton2,500,400)
@@ -353,7 +353,7 @@ def main():
                          if cursor1.colliderect(bot5.rect):
                             bot6.unset()
                             bot5.toggle()
-                            driver.setDimm(bot5.state)
+                            driver.setDim(bot5.state)
                          if cursor1.colliderect(bot6.rect):
                             bot5.unset()
                             bot6.toggle()
